@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <div class="container">
+    <a href="#home-section" class="navbar-brand">
+      <img src="../assets/img/logo.png" alt="logo" id="logo"> TechCity
+    </a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="#home-section" class="nav-link">
+            <h5>Home</h5>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#explore-head-section" class="nav-link">
+            <h5>Explore</h5>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#create-head-section" class="nav-link">
+            <h5>Create</h5>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#share-head-section" class="nav-link">
+            <h5>Share</h5>
+            </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer id="main-footer" class="bg-dark">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <div class="py-4">
+          <h1 class="h3">TechCity</h1>
+          <p>Copyright &copy; 2018</p>
+          <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
